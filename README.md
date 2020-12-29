@@ -29,7 +29,7 @@ sudo service nginx restart
 ```
 **HINT:** Uwsgi wird beim restarten failen. Das ist nicht so schlimm, da der Socket trotzdem erstellt und geserved wird. Dieser Fehler behindert nicht die Funktionalität. Er tritt aus irgendeinem bei Containern auf.
 
-**HINT2:** Wenn man ein Update **ERFOLGRREICH** deployed hat, wäre es nett ein Image aus dem Container zu bauen um ein Backup zu haben.
+**HINT2:** Wenn man ein Update **ERFOLGRREICH** deployed hat, wäre es nett ein Image aus dem Container zu bauen um ein Backup zu haben. *Das Image Taggen nicht vergessen*
 ## Was tue ich, wenn ich alles ohne Gnade kaputt gemacht habe?
 
 Sollte man alles zerstört haben, kann man den Container löschen und das Image *ferienlager-neureut-backup:latest* mit den Ports 80:80 443:443 deployen.
