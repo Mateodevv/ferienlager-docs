@@ -2,7 +2,7 @@
 
 Dokumentation zur Lagerseite.
 
-## Wie verbinde ich mich mit lagerseite?
+## Wie verbinde ich mich mit der lagerseite?
 
 Um was an der Lagerseite zu ändern, muss man sich in den Container hängen. Abgesehen von CLI, kann man sich über das Portainer Frontend mit dem Container verbinden. Hierzu unter http://v2202012133723134785.happysrv.de:9000/ einloggen (login wie der VSever login) > local > Container > exec console > unter **user: root** shell öffnen. 
 
